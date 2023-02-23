@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top left , rgb(116, 54, 151)0% , red 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.player{
+    padding: 60px 120px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.name{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.score{
+    margin: 20px 0 100px 0;
+    font-size: 50px;
+    color: #c7365f;
+}
+
+.current{
+    background-color: #c7365f;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.current-label{
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.player-active{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dice{
+    position: absolute;
+    right: 43%;
+    top: 100px;
+}
+
+.btn{
+    background-color: aquamarine;
+    font-size: 12px;
+    color: rgb(56, 56, 56);
+    position: absolute;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+.new-game{
+    right: 44%;
+    top: 40px;
+}
+
+.role-dice{
+    right: 43.5%;;
+    bottom: 100px;
+}
+
+.hold{
+    right: 45.5%;
+    bottom: 40px;
+}
+
+.player-winner{
+    background-color: rgb(37, 37, 37);
+    color: #c7365f;
+}
